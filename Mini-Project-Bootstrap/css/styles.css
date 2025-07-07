@@ -1,0 +1,8 @@
+body{
+  font-family: 'Inter';
+}
+@media(min-width:800px){
+  .container{
+    width: 700px !important;
+  }
+}

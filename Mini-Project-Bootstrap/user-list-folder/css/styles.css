@@ -1,0 +1,8 @@
+body{
+  font-family: 'Inter';
+}
+@media(max-width: 767px){
+  .user-menu{
+    margin-top: 20px !important;
+  }
+}
