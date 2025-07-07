@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Hobbies Pie Chart</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      color: #121212;
+      font-family: sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .pie-chart {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin: 0 auto;
+      background: conic-gradient(
+        #d2ac86 0% 40%,       /* Cooking */
+        #303030 40% 60%,      /* Playing Instrument */
+        #8f7e7e 60% 90%,      /* Exploring History */
+        #debbbb 90% 100%      /* Petting my Dog */
+      );
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .legend {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .color-box {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      border-radius: 3px;
+    }
+
+    .cooking { background-color: #d2ac86; }
+    .instrument { background-color: #303030; }
+    .history { background-color: #8f7e7e; }
+    .dog { background-color: #debbbb; }
+  </style>
+</head>
+<body>
+
+  <h2>My Hobbies</h2>
+  <div class="pie-chart"></div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="color-box cooking"></div>Cooking - 40%</div>
+    <div class="legend-item"><div class="color-box instrument"></div>Playing Instrument - 20%</div>
+    <div class="legend-item"><div class="color-box history"></div>Exploring History - 30%</div>
+    <div class="legend-item"><div class="color-box dog"></div>Petting my Dog - 10%</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* body{
+  font-family: "Inter";
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+  color: #303030;
+  background-color: #f2f2f2;
+}
+
+.navbar{
+  background-color: #303030 !important;
+
+}
+
+.navbar-brand{
+  color: #d2ac86 !important;
+}
+
+.navbar-toggler{
+  background-color: #d2ac86 !important;
+}
+
+.nav-link{
+  color: #d2ac86 !important;
+  margin-right: 1vw;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+} */
