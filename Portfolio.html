@@ -529,32 +529,34 @@
         I’d love to hear from you! Just complete the form below, and I’ll
         respond as soon as I can.
       </p>
-      <div class="container mb-3">
-        <label for="name" class="form-label">Name</label>
-        <input type="name" class="form-control" required/>
-      </div>
-      <div class="container mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" required/>
-      </div>
-      <div class="container pb-3">
-        <label for="textarea"></label>
-        <textarea
-          name="textarea"
-          id="text-message"
-          class="form-control"
-          placeholder="Enter your text here:"
-          rows="10"
-        ></textarea>
-      </div>
-      <div class="container">
-        <input
-          type="submit"
-          value="Submit Message"
-          class="contactbtn"
-          id="submit-btn"
-        />
-      </div>
+      <form action="" method="POST" netlify>
+        <div class="container mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="name" class="form-control" required />
+        </div>
+        <div class="container mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" required />
+        </div>
+        <div class="container pb-3">
+          <label for="textarea"></label>
+          <textarea
+            name="textarea"
+            id="text-message"
+            class="form-control"
+            placeholder="Enter your text here:"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="container">
+          <input
+            type="submit"
+            value="Submit Message"
+            class="contactbtn"
+            id="submit-btn"
+          />
+        </div>
+      </form>
       <div class="footer-below pt-5 pb-5 mt-3">
         <div class="container">
           <div class="footer-text">
