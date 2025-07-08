@@ -12,20 +12,6 @@ body{
   background-color: #303030 !important;
 }
 
-#go{
-  display: none;
-}
-
-#go.scrolled{
-  position: fixed;
-  display: block;
-  width: 100px;
-  height: 100px;
-  top: 95%;
-  left: 95%;
-  background-color: #d2ac86;
-}
-
 .navbar-brand{
   color: #d2ac86 !important;
 }
@@ -228,4 +214,10 @@ footer{
   height: 20px;
   margin: 5px;
   fill: #d2ac86;
+}
+
+.contact-number{
+  color: #d2ac86;
+  text-decoration: none;
+  margin: 6px;
 }
